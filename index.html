@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>对用户进行提示</title>
+	</head>
+	<body>
+		
+		
+		<button id="alert">alert</button>
+		<button id="confirm">confirm</button>
+		<button id="prompt">prompt</button>
+		<button id="modal">modal Dialog</button>
+		
+		
+		
+		
+		
+		<script type="text/javascript">
+			var buttons = document.getElementsByTagName('button');
+			for(var i=0;i<buttons.length;i++){
+				buttons[i].onclick=box;
+			}
+			function box(e){
+				
+				
+				
+				if(e.target.id=='alert'){
+					alert('this is an alert');
+				}else if(e.target.id=='confirm'){
+					var confirmed=window.confirm('this is a confirm-do you want to proceed');
+					alert('Confirmed?:'+confirmed);
+				}else if(e.target.id=='prompt'){
+					var response = window.prompt('Enter a word','hello');
+					alert('the word was :'+response);
+				}else if(e.target.id=='modal'){
+					window.showModalDialog('http://www.baidu.com');
+				}
+			}
+		</script>
+	</body>
+</html>
