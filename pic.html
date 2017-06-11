@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>自动播放图片</title>
+	</head>
+	<style type="text/css">
+		#slide{
+			list-style: none;
+			margin:0 auto;
+			padding:0;
+			width: 520px;
+			height: 280px;
+			border: 1px solid red;
+			overflow: hidden;
+			
+		}
+		#slide li{
+			display: none;
+		}
+		#slide li.current{
+			display: block;
+			display: block;
+		}
+		#slide li a{
+			display: block;
+			position: relative;
+		}
+		#slide .title{
+			position: absolute;
+			left: 0px;
+			bottom: 0px;
+			z-index: 99;
+			right: 0;
+			text-align: center;
+			background: rgba(0,0,0,0.2);
+			
+		}
+		#slide img{
+			display: block;
+		}
+	</style>
+	<body>
+		<ul id="slide">
+			<li class="current">
+				<a href="#">
+					<img src="http://img.alicdn.com/tfs/TB1GAFLRXXXXXcEXpXXXXXXXXXX-520-280.jpg_q90_.webp"/>
+					<span class="title">1</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="http://img.alicdn.com/simba/img/TB1oCEhQVXXXXbtXFXXSutbFXXX.jpg"/>
+					<span class="title">2</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="http://img.alicdn.com/tfs/TB1HGZTQVXXXXcIaXXXXXXXXXXX-520-280.jpg_q90_.webp"/>
+					<span class="title">3</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="http://img.alicdn.com/simba/img/TB1642vPFXXXXcGXFXXSutbFXXX.jpg"/>
+					<span class="title">4</span>
+				</a>
+			</li>
+		</ul>
+		
+		<script type="text/javascript">
+			
+			window.onload=function(){
+				var lis=document.querySelectorAll('#slide li');
+				var i=0;
+				setInterval(function(){
+					if(i>=lis.length){
+						i=0;
+					}
+					if(i>0){
+						
+						lis[i-1].className='';
+					}
+					lis[i].className='current';
+					i++;
+				},1500)
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			/*window.onload=function(){
+				var lis=document.querySelectorAll('#slide li');
+				var i=0;
+				setInterval(function(){
+					if(i>=lis.length){
+						i=0;
+					}
+					if(i>0){
+						lis[i-1].className='';
+					}
+					lis[i].className='current';
+					i++;
+					//console.log(i);
+				},4000)
+			}*/
+			
+			
+		</script>
+		
+	</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="demo购物车.js"></script>
+		<style type="text/css">
+			body{
+				font: 14px/24px "微软雅黑";
+			}
+			ul{
+				list-style: none;
+				padding: 0;
+			}
+			
+			em{
+				display: inline-block;
+				min-width:2em ;
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<ul id="list">
+			<li>
+				<input class="reduce" type="button" value='-' />
+				<strong class="num">0</strong>
+				<input class="plus" type="button" value='+' /> 
+				单价：<em class="price">12.5</em>元 
+				小计： <span class="subtotal">0</span>元
+			</li>
+			<li>
+				<input class="reduce" type="button" value='-' />
+				<strong class="num">0</strong>
+				<input class="plus" type="button" value='+' /> 
+				单价：<em class="price">80</em>元 
+				小计： <span class="subtotal">0</span>元
+			</li>
+			<li>
+				<input class="reduce" type="button" value='-' />
+				<strong class="num">0</strong>
+				<input class="plus" type="button" value='+' /> 
+				单价：<em class="price">5</em>元 
+				小计： <span class="subtotal">0</span>元
+			</li>
+			<li>
+				<input class="reduce" type="button" value='-' />
+				<strong class="num">0</strong>
+				<input class="plus" type="button" value='+' /> 
+				单价：<em class="price">1</em>元 
+				小计： <span class="subtotal">0</span>元
+			</li>
+			<li>
+				<input class="reduce" type="button" value='-' />
+				<strong class="num">0</strong>
+				<input class="plus" type="button" value='+' /> 
+				单价：<em class="price">20</em>元 
+				小计： <span class="subtotal">0</span>元
+			</li>
+		</ul>
+
+		<p class="result"></p>
+		
+		
+		<script type="text/javascript">
+			window.onload=function(){
+				var ullist=document.getElementById('list');
+				var lis=ullist.getElementsByTagName('li');
+				var resultObj=document.querySelector('.result');
+				var emprice=ullist.querySelectorAll('.price');
+				var maxnum=0;
+				for(var i=0;i<lis.length;i++){
+					box(lis[i]);
+					
+					if(Number(emprice[i].innerHTML)>maxnum){
+						maxnum=Number(emprice[i].innerHTML)
+					}
+					pox();
+				}
+				
+				function box(liObj){
+					var numObj=liObj.querySelector('.num');
+					var price=parseFloat(liObj.querySelector('.price').innerHTML);
+					var num=Number(numObj.innerHTML);
+					liObj.querySelector('.plus').onclick=function(){
+						num++;
+						numObj.innerHTML=num;
+						liObj.querySelector('.subtotal').innerHTML=num*price;
+						pox();
+					}
+					
+					liObj.querySelector('.reduce').onclick=function(){
+						num--;
+						if(num<0){
+							num=0;
+						}
+						numObj.innerHTML=num;
+						liObj.querySelector('.subtotal').innerHTML=num*price;
+						pox();
+					}
+					
+				}
+				function pox(){
+					var costObj=ullist.querySelectorAll('.num');
+					var totalObj=ullist.querySelectorAll('.subtotal');
+					var cost=0;
+					var total=0;
+					for(var i=0;i<lis.length;i++){
+						cost+=parseInt(costObj[i].innerHTML);
+						total+=parseInt(totalObj[i].innerHTML);
+					}
+					resultObj.innerHTML='共计：'+cost+'总价'+total+'最贵：'+maxnum;
+				}
+			}
+		</script>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!--<script type="text/javascript">
+			window.onload=function(){
+				//获取外框架
+				var ullist=document.getElementById('list');
+				//获取li列表
+				var lis=ullist.getElementsByTagName('li');
+				console.log(lis.length);
+				//获取总价
+				var showResult=document.querySelector('.result');
+				
+				var emnum=ullist.querySelectorAll('.price');
+				
+				var maxnum=0;
+				
+				for(var i=0;i<lis.length;i++){
+					box(lis[i]);
+					if(Number(emnum[i].innerHTML)>maxnum){
+						maxnum=Number(emnum[i].innerHTML);
+					}
+					
+				}
+				pox();
+				
+				function box(liObj){
+					var numObj=liObj.querySelector('.num');
+					var price=parseFloat(liObj.querySelector('.price').innerHTML);
+					var subtotal=liObj.querySelector('.subtotal');
+					var num=Number(numObj.innerHTML);
+					//点击加按钮
+					liObj.querySelector('.plus').onclick=function(){
+						num++;
+						numObj.innerHTML=num;
+						subtotal.innerHTML=num*price;
+						 pox()
+					}
+					
+					//点击减按钮
+					liObj.querySelector('.reduce').onclick=function(){
+						num--;
+						if(num<=0){
+							num=0;
+						}
+						
+						numObj.innerHTML=num;
+						subtotal.innerHTML=num*price;
+						 pox()
+					}
+				};
+				function pox(){
+					var numObject=ullist.querySelectorAll('.num');
+					var subObject=ullist.querySelectorAll('.subtotal');
+					var total = 0;
+					var cost=0;
+					for(var i=0;i<lis.length;i++){
+						total+=parseInt(numObject[i].innerHTML);
+						cost+=parseFloat(subObject[i].innerHTML);
+					}
+					showResult.innerHTML='商品共计：'+total+'。'+'总计：'+cost+'最贵的商品：'+maxnum;
+				}
+				
+				
+			}
+		</script>-->
+		
+		
+		
+		
+		
+		
+		
+		<!--<script type="text/javascript">
+			window.onload=function(){
+				var ullist=document.getElementById('list');
+			
+				var lilist=ullist.getElementsByTagName('li');
+				
+				var showResult = document.querySelector('.result');
+				
+				var priceCollection=list.querySelectorAll('.price');
+				
+				var maxNum=0;
+				
+				for(var i=0;i<lilist.length;i++){
+					bindEvent(lilist[i]);
+					console.log(priceCollection[i].innerHTML);
+					/*if(Number(priceCollection[i].innerHTML>maxNum)){
+						maxNum=priceCollection[i].innerHTML;
+					}*/
+					if(Number(priceCollection[i].innerHTML)>maxNum){
+						maxNum=priceCollection[i].innerHTML;
+					}
+					/*if(Number(priceCollection[i].innerHTML)>maxNum){
+			maxNum=priceCollection[i].innerHTML;
+		}*/
+					countResult()
+				}
+				
+				function bindEvent(lilist){
+					var numObj=lilist.querySelector('.num');
+					var priceObj=lilist.querySelector('.price');
+					var subtotalObj=lilist.querySelector('.subtotal');
+					
+					//获取商品数量
+					var num=Number(numObj.innerHTML);
+					var price=parseFloat(priceObj.innerHTML);
+					
+					
+					lilist.querySelector('.reduce').onclick=function(){
+						num--;
+						if(num<0){
+							num=0;
+						}
+						numObj.innerHTML=num;
+						subtotalObj.innerHTML=num*price;
+						countResult();
+					}
+					lilist.querySelector('.plus').onclick=function(){
+						num++;
+						numObj.innerHTML=num;
+						subtotalObj.innerHTML=num*price;
+						countResult();
+					}
+					
+					
+				};
+				//计算总数
+				function countResult(){
+					var numCollection=ullist.querySelectorAll('.num');
+					var subtotalCollection=ullist.querySelectorAll('.subtotal');
+					
+					var total=0;
+					var cost=0;
+					
+					for(var i=0;i<lilist.length;i++){
+						total+=parseInt(numCollection[i].innerHTML);
+						cost+=parseFloat(subtotalCollection[i].innerHTML);
+					}
+					showResult.innerHTML = "商品合计共：" + total + "件，共花费了：" + cost + "元" + "<br />" 
+				+'最贵的商品价格：'+maxNum+'.';
+					
+				}
+				
+				
+				
+				
+			}
+			
+		</script>-->
+	</body>
+</html>
