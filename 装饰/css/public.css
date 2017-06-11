@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0px; padding:0px; color:#333; font-size:14px; line-height:22px; font-family:"微软雅黑";}
+ul,li{ margin:0px; padding:0px; list-style:none;}
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#ff6c1d; text-decoration:none;}
+img{ border:0px;}
+
+.head{ background:#f8f8f8; border-bottom:1px solid #eee; overflow:hidden;}
+.head .head_01{ width:1300px; margin:auto; height:40px; line-height:40px; overflow:hidden; color:#999;}
+.head .head_01 span{ float:right;}
+.head .head_01 span a{ color:#999; padding:0 10px;}
+.head .head_01 span a:hover{ color:#ff6c1d;}
+.head .head_01 span b{ font-weight:100; margin-left:10px;}
+
+.top{ width:1300px; margin:auto; line-height:38px;}
+.top .logo{ float:left; margin-top:35px;}
+.top .logo img{ width:395px; height:62px;}
+.top .search{ float:left; width:480px; height:38px; border:2px solid #24b673; margin-top:50px; margin-left:60px;}
+.top .search .s1{ float:left; width:100px; height:38px; background:url(../images/zx_02.jpg) no-repeat right 10px center #f5f5f5;  position:relative;}
+.top .search .s1 a{ padding-left:10px; color:#999;}
+.top .search .s1 ul{ width:100px; position:absolute; background:#fff; left:-999em; z-index:1;}
+.top .search .s1:hover{ background:url(../images/zx_01.jpg) no-repeat right 10px center #fff;}
+.top .search .s1:hover ul{ left:auto;}
+.top .search .s1 span a{ color:#999;}
+.top .search .s1 ul li a:hover{ color:#ff6c1d;}
+.top .search input{ margin:0px; padding:0px; background:#24b673; border:none; text-align:center; width:95px; height:38px; display:block; float:left; color:#fff; font-weight:bold; cursor:pointer; font-size:16px;}
+.top .search .s2{ width:280px; height:38px; background:none; cursor:auto; text-align:left; padding-left:5px; font-size:14px; font-weight:100; color:#666;}
+.top .logo_01{ float:right; margin-top:35px;}
+.top .logo_01 img{ width:171px; height:64px;}
+
+.menu{ border-bottom:2px solid #24b673; margin-top:25px;}
+.menu .menu_01{ width:1300px; margin:auto; height:44px; line-height:44px; font-size:18px;}
+.menu .menu_01 #nav li{ float:left; background:url(../images/zx_03.jpg) no-repeat right center; width:170px; text-align:center;}
+.menu .menu_01 #nav .sy{ width:110px; background:#24b673;}
+.menu .menu_01 #nav .sy a{ color:#fff;}
+.menu .menu_01 #nav li:hover{ background:#24b673;}
+.menu .menu_01 #nav li:hover a{ color:#fff;background:#24b673;}
+.menu .menu_01 #nav .m1{  position:relative;}
+.menu .menu_01 #nav .m1 a{ background:url(../images/zx_05.jpg) no-repeat right 20px center; display:block;}
+.menu .menu_01 #nav .m1:hover a{ background:url(../images/zx_04.jpg) no-repeat right 20px center;}
+.menu .menu_01 #nav .m1 ul{ position:absolute; background:#209e64; font-size:14px;  padding:10px 0; left:-999em; z-index:999;}
+.menu .menu_01 #nav .m1 ul li{ background:none;}
+.menu .menu_01 #nav .m1 ul li a{ color:#fff;}
+.menu .menu_01 #nav .m1:hover ul li a{ background:none;}
+.menu .menu_01 #nav .m1 ul li a{ background:none;}
+.menu .menu_01 #nav .m1 ul li:hover{ background:#19794d;}
+.menu .menu_01 #nav .m1:hover ul{ left:auto;}

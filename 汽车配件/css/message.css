@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.message{ width:650px; padding:25px 0 0 150px; overflow:hidden;}
+.message ul li{ margin-bottom:15px;}
+.message ul li span{ width:100px; text-align:right; float:left; display:block;}
+.message ul li font{ color:#f00;}
+.message ul li input{ margin:0px; padding:0px; border:1px solid #ccc; width:200px; height:20px; line-height:20px;}
+.message ul li textarea{ margin:0px; padding:0px; width:250px; height:100px; border:1px solid #ccc;}
+.message ul li .nr{ padding-top:78px;}
+.message ul li .yzm{ width:100px;}
+.message ul li b{ font-weight:100; background:#dde8fc; color:#0000cc; padding:0 5px; margin-right:5px;}
+.message .tj{ width:50px; height:20px; line-height:20px; border:1px solid #ccc; background:#ddd; margin-left:60px;}
+.message .cz{ width:50px; height:20px; line-height:20px; border:1px solid #ccc; background:#ddd;}
+
+.ckly{ padding:15px 0 0 10px; overflow:hidden; width:790px;}
+.ckly .tt{ color:#383838; padding-left:5px; height:25px; line-height:25px; background:#f3f3f3;}
+.ckly span{ color:#737c79; margin:10px 0 10px 5px;}
+.ckly p{ margin:0px; padding-left:5px;}
+.ckly font{ text-align:center; margin-top:20px; width:790px; display:block;}

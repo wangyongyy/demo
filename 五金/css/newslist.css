@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.newslist{padding:25px 30px; line-height:26px;text-indent:2em; color:#525252;}
+.newslist ul li a{ background:url(../images/wj_25.jpg) no-repeat left center; padding-left:15px; color:#666;}
+.newslist ul li a:hover{ text-decoration:none;}
+.newslist ul li{ border-bottom:1px dashed #e6e6e6; padding-bottom:5px; margin-bottom:8px;}
+.newslist span{ float:right; color:#525252;}
+.newslist .page{ text-align:center;}
+
+
+.news{ padding:20px;}
+.news b{ font-size:16px; color:#e87524; font-weight:bold; display:block; text-align:center; margin-top:15px;}
+.news span{ display:block; text-align:center; margin-top:10px;}
+.news p{ color:#525252; text-indent:2em;}

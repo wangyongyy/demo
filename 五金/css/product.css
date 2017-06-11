@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.productlist{ padding:40px 0 40px 35px;}
+.productlist ul li{ width:149px; float:left; text-align:center; margin-right:20px; margin-bottom:35px;}
+.productlist ul li img{ width:145px; border:1px solid #ebebeb; padding:1px; float:left; height:100px;}
+.productlist ul li a{ color:#0000ee;}
+.productlist .page{ text-align:center;}
+
+.product{ padding:40px 35px 40px 35px; }
+.product .nr{ width:450px; border:1px solid #ebebeb; float:left; margin-right:20px; margin-bottom:20px;}
+.product .nr img{ max-width:450px; height:300px; }

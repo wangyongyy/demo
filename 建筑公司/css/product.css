@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.product{  overflow:hidden;}
+.product ul li{ float:left; margin:20px 0 0 15px; width:183px; text-align:center; overflow:hidden;}
+.product ul li img{ width:179px; border:1px solid #dedede; padding:1px;}
+.product ul li a:hover{ text-decoration:underline;}
+.product span{ text-align:center; margin-top:40px; display:block;}
+
+.productlist{ overflow:hidden;}
+.productlist .pic{ width:476px; float:left; display:table-cell; vertical-align:middle; text-align:center; padding:15px 10px;}
+.productlist .pic img{ max-height:500px; border:1px solid #dedede; padding:1px; height:300px;}
+.productlist .jj{ float:left;padding:15px 10px; overflow:hidden; width:289px; line-height:30px;}
+.productlist .jj b{ display:block; font-size:30px; background:#dedede; height:40px; line-height:40px; padding-left:10px;}
+.productlist .sm{ border-top:4px solid #f3f3f3; padding-left:30px; padding-top:10px;}

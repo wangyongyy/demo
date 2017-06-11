@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bj .main .right .r1{ width:470px; overflow:hidden; background:url(../images/jz_13.jpg) repeat-x left top; height:240px; float:left;}
+.main .right .r1 .tt{ background:url(../images/jz_09.jpg) no-repeat left; font-size:18px; color:#fff; line-height:42px; padding-left:30px;}
+.main .right .r1 .nr{ padding:10px;}
+.main .right .r1 .nr img{ float:left; padding:0 10px 10px 0;}
+.main .right .r1 .nr p{ margin:0px; padding:0px; line-height:26px; text-indent:2em;}
+
+.main .right .r2{ width:339px; overflow:hidden; height:240px; background:url(../images/jz_17.jpg) no-repeat left bottom;}
+.main .right .r2 .tt{ background:url(../images/jz_15.jpg) no-repeat left; height:42px; line-height:42px; font-size:18px; color:#fff; padding-left:30px;}
+.main .right .r2 .tt a{ float:right; font-size:10px; color:#fff; background:url(../images/jz_16.jpg) no-repeat right 10px center; padding-right:20px;}
+.main .right .r2 ul{ padding:0 35px 0 20px; background:url(../images/jz_18.jpg) repeat-y right top; height:198px;}
+.main .right .r2 ul li{ background:url(../images/jz_12.jpg) no-repeat left center; padding-left:15px; border-bottom:1px dashed #585858; padding-bottom:5px; padding-top:10px;}
+.main .right .r2 ul li span{ float:right; color:#666;}
+
+.main .right .r3{ height:220px; overflow:hidden; background:url(../images/jz_19.jpg) repeat-x top left;}
+.main .right .r3 .tt{ background:url(../images/jz_09.jpg) no-repeat left; height:42px; line-height:42px; font-size:18px; color:#fff; padding-left:30px;}
+.main .right .r3 .tt a{ float:right; font-size:10px; background:url(../images/jz_20.jpg) no-repeat; height:11px; width:41px; margin:15px 10px 0 0; }
+.main .right .r3 .bd{ width:792px; margin-left:7px; overflow:hidden;}
+.main .right .r3 .bd ul li{ text-align:center; width:188px; overflow:hidden; margin:10px 10px 0 0; float:left;}
+.main .right .r3 .bd ul li img{ width:184px; border:1px solid #ccc; padding:1px;}
+.main .right .r3 .bd ul li img:hover{ border:1px solid #cc0000;}

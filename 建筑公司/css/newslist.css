@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.newslist{ padding:0 10px; overflow:hidden;}
+.newslist ul li{ border-bottom:1px dashed #cacaca; padding-bottom:8px; margin-top:15px; color:#333; font-family:"宋体";}
+.newslist ul li a{ background:url(../images/jz_25.jpg) no-repeat left center; padding-left:20px;}
+.newslist ul li span{ float:right; color:#666;}
+.newslist font{ text-align:center; margin-top:20px; display:block;}
+
+.news b{ text-align:center; display:block; font-size:25px; font-weight:bold; line-height:60px;}
+.news span{ width:789px; margin:auto; display:block; text-align:center; height:22px; border:1px dashed #dedede; color:#999;}
+.news p{ text-indent:2em; line-height:26px; padding:30px 20px 0 10px; font-family:"宋体";}

@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0px; padding:0px; font-size:12px; font-family:"微软雅黑"; line-height:22px; color:#333;}
+ul,li{ margin:0px; padding:0px; list-style:none;}
+a{ text-decoration:none; color:#333}
+a:hover{ text-decoration:none; color:#F00;}
+img{border:0px;}
+
+.head{ background:#464646; overflow:hidden;}
+.head .top{ width:1000px; margin:auto; height:95px; background:#ededed;}
+.head .top .logo{ height:95px; float:left;}
+.head .top .right{ float:right;}
+.head .top .right span{ margin-top:32px; display:block;}
+.head .top .right span a{ padding:0 10px;}
+
+.menu{ background:url(../images/main_03.jpg) repeat-x;}
+.menu .menu_01{ width:938px; background:url(../images/main_04.jpg) repeat-x; height:41px; margin:auto; border-left:1px solid #ededed; border-right:1px solid #ededed; padding-left:60px;}
+.menu .menu_01 img{ float:left;}
+.menu .menu_01 span{ line-height:41px; color:#FFF;}
+.menu .menu_01 span a{ color:#fff; padding:0 25px;}
+
+.banner{ background:#a4020f; overflow:hidden;}
+.banner .banner_01{ width:1000px; height:245px; background:#FFF; margin:auto; padding-bottom:5px; position:relative;}
+.banner .banner_01 .hd{ position:absolute; right:10px; bottom:10px;}
+.banner .banner_01 .hd ul li{ float:left; width:15px; height:15px; line-height:15px; text-align:center; color:#f00; cursor:pointer;}
+.banner .banner_01 .hd ul li.on{ width:20px; height:15px; line-height:15px; background:url(../images/main_20.png);}
+.banner .banner_01 img{ width:100%; }
+
+.bj{ background:url(../images/main_06.jpg) repeat-x; overflow:hidden;}
+.bj .main{ width:1000px; margin:auto; background:#FFF; padding-top:10px; overflow:hidden;}
+.bj .main .left{ width:220px; background:#b0000d; float:left; overflow:hidden;}
+.bj .main .left .tt{ background:url(../images/main_07.jpg) repeat-x; height:32px; margin-bottom:5px; line-height:32px; color:#FFF;}
+.bj .main .left .left_01 #qy{ font-size:18px;}
+.bj .main .left .tt span{ font-size:8px; letter-spacing:1px; color:#b30000;}
+.bj .main .left .tt img{ float:left; padding-left:10px;}
+.bj .main .left .m1{ background:url(../images/main_09.jpg) no-repeat top left; padding:25px 10px 10px 10px;}
+.bj .main .left .m1 ul li{ background:url(../images/main_17.jpg) no-repeat bottom center; padding-bottom:3px;}
+.bj .main .left .m1 ul li a{ padding-left:70px; color:#fff;}
+.bj .main .left .m1 ul li a:hover{ text-decoration:underline;}
+.bj .main .left .contrct{ width:210px; padding:10px; background:url(../images/main_10.jpg) repeat-y; overflow:hidden; margin:10px 5px;}
+.bj .main .right{ width:770px; margin-left:10px; float:left;}
+
+
+
+.fbv{ width:1000px; margin:auto; height:63px; background:url(../images/main_16.jpg) repeat-x; text-align:center; color:#fff; margin-bottom:20px;}
+.fbv img{ float:left; height:63px;}
+.fbv font{ padding-top:15px; display:block;}
+
+.bj .main .right .tt{ background:url(../images/main_12.jpg) repeat-x; height:32px; line-height:32px;font-size:16px; color:#fff;}
+.bj .main .right .tt img{ margin-left:10px; float:left;}
+.bj .main .right .tt span{ float:right; margin-right:10px; font-size:14px;}
+.bj .main .right .tt span a{ color:#fff;}
+.bj .main .right .tt span a:hover{ text-decoration:underline;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

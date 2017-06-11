@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.productlist{ padding:15px 0 0 20px; overflow:hidden; text-align:center;}
+.productlist ul li{ float:left; text-align:center; width:175px; overflow:hidden; margin:0 15px 15px 0;}
+.productlist ul li a img{ border:1px solid #dedede; width:171px; padding:1px;}
+.productlist ul li a img:hover{ border:1px solid #01947d;}
+
+.productlist .product{ width:760px; overflow:hidden; border-bottom:4px solid #efefef; padding-bottom:20px;}
+.productlist .product .pic{ float:left; width:500px; text-align:center;  }
+.productlist .product .pic img{ max-width:500px;}
+.productlist .product .jianjie{ float:left; padding-left:15px; line-height:30px; text-align:left;}
+
+.productlist .product .jianjie b{ display:block; background:#efefef; width:235px; font-size:16px; padding-left:10px;}

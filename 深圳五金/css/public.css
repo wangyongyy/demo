@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0px; padding:0px; font-size:12px; color:#313131; font-family:"微软雅黑"; line-height:22px;}
+ul,li{ margin:0px; padding:0px; list-style:none;}
+a{ color:#313131; text-decoration:none;}
+a:hover{ color:#f00; text-decoration:none;}
+img{ border:0px;}
+
+.top{ height:30px; background:#f5f5f5; overflow:hidden;}
+.top .top_01{ width:1000px; margin:auto;}
+.top .top_01 span{ float:right;}
+.top .top_01 span a{ color:#313131; padding:0 10px; cursor:pointer;}
+
+.head{ width:1000px; margin:auto; overflow:hidden;}
+.head .logo{ float:left; margin:20px 0 30px 0;}
+.head .center{ float:left; margin:60px 0 0 20px;}
+.head .center a{ padding:0 10px;}
+.head .search{ float:right; margin-top:45px;}
+.head .search input{ border:none; background:none; margin:0px; padding:0px; line-height:30px; float:left;}
+.head .search .s1{ width:146px; height:30px; padding-left:4px; border:1px solid #ddd; background:#f5f5f5; margin-right:5px;}
+.head .search .s2{ width:45px; height:32px; background:url(../images/wj_01.jpg) no-repeat center #0446a8; cursor:pointer;}
+
+.menu{ width:1000px; text-align:right; margin:auto;}
+.menu a{ display:block; width:121px; height:34px; font-size:16px; line-height:34px; float:right; background:url(../images/wj_02.jpg) no-repeat center; color:#fff; text-align:center;}
+.menu a:hover{ color:#f00;}
+
+.banner{ position:relative; width:100%; height:450px;}
+.banner #l1 ul{ position:absolute; top:380px; z-index:999; left:45% }
+.banner #l1 ul li{ float:left; width:20px; height:20px; background:#f00; text-align:center; border-radius:20px; margin:0 5px; cursor:pointer;}
+.banner #l1 ul li.on{ background:#fff;}
+.banner .bd ul li img{ width:100%; height:450px;}
+.banner .new{ width:100%; height:40px; background:url(../images/wj_03.png) repeat; position:absolute; line-height:40px; color:#fff; bottom:0px;}
+.banner .new #l2{ width:1000px; margin:auto; height:20px; line-height:20px; margin-top:10px; }
+.banner .new ul li{ cursor:pointer;}
+
+.bj{ background:url(../images/wj_03.jpg) repeat-x left top #f4f4f4; padding-top:40px; overflow:hidden;}
+.main_01{ width:1000px; margin:auto; overflow:hidden;}
+.main_01 .lt_01{ width:230px; float:left; overflow:hidden; background:#fff; height:550px;}
+.main_01 .lt_01 .tt{ width:230px; height:40px; line-height:40px; text-align:center; font-size:16px; font-weight:bold; color:#fff; background:url(../images/wj_04.jpg) no-repeat center;}
+.main_01 .lt_01 ul{ width:230px; background:url(../images/wj_05.jpg) no-repeat left top; padding-top:30px;}
+.main_01 .lt_01 ul li{ width:170px; padding-left:30px; margin:0 0 10px 15px; height:30px; line-height:30px; background:#f1f1f1; border-radius:10px;}
+.main_01 .lt_01 ul li a{ display:block; background:url(../images/wj_06.jpg) no-repeat right 20px center;}
+
+.main_01 .lt_01 .search{ width:200px; height:150px; margin:40px 15px 0 15px; border:1px solid #e8e8e8;}
+.main_01 .lt_01 .search b{ color:#313131; font-weight:100; margin-left:30px;}
+.main_01 .lt_01 .search input{ border:0px; background:none; margin:0px; padding:0px;height:24px; line-height:24px;}
+.main_01 .lt_01 .search .s3{ width:150px; border:1px solid #e8e8e8; margin-left:5px; padding-left:2px;}
+.main_01 .lt_01 .search .s4{ width:35px; background:url(../images/wj_07.jpg) no-repeat center; margin-top:10px; }
+.main_01 .lt_01 .search span{ background:url(../images/wj_08.jpg) no-repeat left center; display:block; padding-left:40px; margin-top:30px; color:#0446a9; line-height:20px; margin-left:10px;}
+.main_01 .lt_01 .search span p{ margin:0px; padding:0px; font-size:14px;}
+.main_01 .lt_01 .search span b{ font-size:16px; margin:0px; padding:0px;color:#0446a9;}
+
+.main_01 .rt_01{ width:765px; float:right; background:#fff; height:550px;}
+.main_01 .rt_01 .tt{ width:765px; height:37px; background:url(../images/wj_09.jpg) repeat-x; line-height:40px; border-bottom:3px solid #0e70c3;}
+.main_01 .rt_01 .tt b{ display:block; width:80px; background:url(../images/wj_10.jpg) no-repeat right top; z-index:99; padding-left:20px; float:left;}
+.main_01 .rt_01 .tt a{ float:right; margin-right:20px;}
+.main_01 .rt_01 .pic{ width:765px; background:url(../images/wj_11.jpg) no-repeat left top; padding-top:30px;}
+.main_01 .rt_01 .pic ul li{ width:232px; margin-left:17px; float:left; margin-bottom:20px; text-align:center;}
+.main_01 .rt_01 .pic ul li img{ width:230px; height:195px; border:1px solid #e8e8e8; border-bottom:none;}
+.main_01 .rt_01 .pic ul li span{ width:232px; height:24px; line-height:24px; background:#399aff; display:block; color:#fff;}
+.main_01 .rt_01 .pic ul li span a{ color:#fff;}
+.main_02{ width:1270px; margin:auto; background:url(../images/main_07.jpg) no-repeat left center; height:135px; margin-top:15px;}
+.main_02 .m1 a{ display:block; width:1000px; margin:auto; height:125px; display:block; cursor:pointer;}
+
+.fbv{ height:30px; background:#034d8a; color:#fff; overflow:hidden; line-height:30px;}
+.fbv .fbv_01{ width:1000px; margin:auto;}
+.fbv .fbv_01 a{ color:#fff; padding:0 15px;}
+.fbv .fbv_01 span{ float:right;}

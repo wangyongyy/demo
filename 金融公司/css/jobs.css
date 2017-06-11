@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+.jobs ul li{ border-bottom:1px dashed #CCC; padding-bottom:5px; font-size:14px;}
+.jobs ul li span{ float:right; padding-right:10px;}
+.jobs ul li font{ width:200px; height:30px; line-height:30px; display:block; float:left; background:url(../images/main_19.jpg) no-repeat left center ; padding-left:10px;}
+.jobs ul li font:hover{ text-decoration:underline;}
+.jobs .page{ text-align:center; margin-top:20px;}

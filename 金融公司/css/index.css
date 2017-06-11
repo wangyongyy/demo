@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bj .main .right{ width:770px; float:right; overflow:hidden;}
+.bj .main .right .right_01{ float:left; width:470px; margin-left:10px; background:url(../images/main_11.jpg) repeat-y left top #f5f5f5;}
+.bj .main .right .right_01 .tt{ background:url(../images/main_12.jpg) repeat-x; height:32px;}
+.bj .main .right .right_01 .tt #yw{ color:#fff; font-size:8px;}
+.bj .main .right .right_01 .nr img{ width:200px; float:left; padding:10px 15px 0 10px;}
+.bj .main .right .right_01 .nr #js{ padding-top:40px; display:block;}
+.bj .main .right .right_02{ width:280px; float:right;}
+.bj .main .right .right_02 .tt{ background:url(../images/main_07.jpg) repeat-x; height:32px;}
+.bj .main .right .right_02 .tt a{ float:right; padding-right:5px; color:#fff;}
+.bj .main .right .right_02 .tt a:hover{ text-decoration:underline; color:#f00;}
+.bj .main .right .right_02 ul li{ list-style:inside; border-bottom:1px #ccc dashed; padding-bottom:2px; line-height:28px;}
+.bj .main .right .right_02 ul li a:hover{ text-decoration:underline; color:#f00;}
+.bj .main .right .right_02 ul li #sj{ color:#666; float:right;}
+
+.bj .main .right .right_03{ width:770px; border-top:1px solid #999; margin:10px 0 10px 10px; overflow:hidden; border-bottom:1px solid #999;}
+.bj .main .right .right_03 .zxfw{ background:url(../images/main_11.jpg) repeat-y left top #f5f5f5; overflow:hidden; float:left; width:379px; border-right:1px dashed #999; padding-right:5px;}
+.bj .main .right .right_03 .zxfw span{ float:right;}
+.bj .main .right .right_03 .zxfw ul{ padding-left:20px; line-height:26px;}
+.bj .main .right .right_03 .zxfw h3{ padding-left:10px; float:left;}
+.bj .main .right .right_03 .zxfw #gd{ float:right; margin-top:16px;}
+.bj .main .right .right_03 .zxfw a:hover{ text-decoration: underline; color:#f00;}
+
+.bj .main .right .right_03 .xxfw{ background:url(../images/main_14.jpg) repeat-y right top #f5f5f5; width:375px; float:left;}
+.bj .main .right .right_03 .xxfw span{ margin-right:5px; float:right;}
+.bj .main .right .right_03 .xxfw ul{ padding-left:20px; line-height:26px;}
+.bj .main .right .right_03 .xxfw h3{ padding-left:10px; float:left;}
+.bj .main .right .right_03 .xxfw #gd{ float:right; margin-top:16px;}
+.bj .main .right .right_03 .xxfw a:hover{ text-decoration: underline; color:#f00;}
+

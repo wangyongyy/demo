@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+
+
+#banner{
+	background: url(../images/search.jpg) no-repeat center;
+	width: 100%;
+	min-width: 1263px;
+	position: relative;
+	height: 600px;
+}
+#banner .center{
+	width: 600px;
+	height: 40px;
+	background: #333;
+	opacity: 0.6;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -20px 0 0 -300px;
+}
+
+#banner .search{
+	width: 470px;
+	height: 40px;
+	background: #eee;
+	position: absolute;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+	top: 50%;
+	left: 50%;
+	margin: -20px 0 0 -296px ;
+	padding: 0px 0 0 10px;
+	font-size: 16px;
+	border: 1px solid #666;
+	line-height: 40px;
+}
+#banner #btn{
+	width: 110px;
+	height: 40px;
+	background: #ccc;
+	position: absolute;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+	top: 50%;
+	left: 50%;
+	margin: -20px 0 0 188px ;
+	border: 1px solid #666;
+	font-size: 16px;
+	line-height: 40px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#tour{
+	width: 1263px;
+	margin: 30px auto;
+	height: 1100px;
+	/*background: #ccc;*/
+	text-align: center;
+}
+/*#tour .center{
+	text-align: center;
+}*/
+#tour .center h2{
+	font-size: 45px;
+	letter-spacing: 2px;
+	margin: 10px 0;
+	color: #666;
+}
+#tour .center p{
+	color: #666;
+	margin: 10px 0;
+}
+
+#tour figure{
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 15px 12px;
+	width: 380px;
+	position: relative;
+}
+#tour figure img{
+	vertical-align: middle;
+}
+#tour figure figcaption{
+	text-align: left;
+	color: #777;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	
+}
+#tour .tittle{
+	color: #333;
+	font-weight: normal;
+}
+#tour figure .sat{
+	float: right;
+	font-size: 13px;
+	color: #999;
+	font-style: normal;
+	position: relative;
+	top: 5px;
+	right: 5px;
+}
+#tour figure .price{
+	float: left;
+	color: #f60;
+}
+#tour .price strong{
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+#tour .type{
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	background-color: #59b200;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+}
+

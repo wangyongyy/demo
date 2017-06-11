@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.newslist{ padding:0px 15px 0 20px; overflow:hidden; font-size:14px;}
+.newslist ul li{  border-bottom:1px dashed #d4d4d4; margin-top:15px; padding-bottom:8px;}
+.newslist ul li a{background:url(../images/qc_14.jpg) no-repeat left center; padding-left:15px;}
+.newslist ul li span{ float:right; color:#666;}
+.newslist font{ display:block; width:765px; text-align:center; margin-top:20px;}
+
+.news{ width:770px; padding:15px 20px 0 15px; overflow:hidden;}
+.news .tt{ width:770px; text-align:center; font-size:20px; font-weight:500;}
+.news span{ width:768px; height:25px; display:block; border:1px solid #efefef; background:#f9f9f9; text-align:center; margin:15px 0 20px 0;}
+.news p{ margin:0px; padding:0px; text-indent:2em; line-height:24px; font-size:14px; padding-bottom:20px;}
+.news .previous{ font-size:14px; padding-left:30px;}
+.news .next{ padding-left:30px; font-size:14px;}

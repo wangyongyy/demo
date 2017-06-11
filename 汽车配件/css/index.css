@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_01{ width:988px; overflow:hidden; background:url(../images/qc_04.jpg) repeat; padding:20px 0 15px 0; border:1px solid #d4d4d4; margin-top:20px; line-height:26px; letter-spacing:1px;}
+.main_01 .m1{ float:left; width:400px; margin-left:20px; text-indent:2em;}
+.main_01 .m1 a{ color:#0F0;}
+.main_01 .m1 a:hover{ color:#f00;}
+.main_01 .m2{ width:300px; margin-left:20px; float:left;}
+.main_01 .m2 ul li{ background:url(../images/qc_05.jpg) no-repeat left center; padding-left:10px;}
+.main_01 .m2 ul li span{ float:right; color:#999;}
+.main_01 .m3{ float:left; margin-left:20px; font-family:"微软雅黑";}
+
+.main_02 .bd{ margin-top:10px; overflow:hidden;}
+.main_02 .bd ul li{ text-align:center; float:left; margin-left:15px;}
+.main_02 .bd ul li img{ display:block; width:176px; border:1px solid #ccc; padding:1px;}
+.main_02 .bd ul li img:hover{ border:1px solid #f00;}

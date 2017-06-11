@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.messages{ padding:25px 0 0 150px; overflow:hidden;}
+.messages ul li{ margin-top:10px;line-height:26px;}
+.messages ul li span{ width:80px; text-align:right; display:block; float:left;}
+.messages ul li input{ width:200px; height:26px;  padding-left:10px; margin:0px; border:1px solid #ccc; outline:none; }
+.messages ul li .nr{ width:250px; padding-left:10px; height:100px;border:1px solid #ccc; outline:none;}
+.messages ul li .m{ padding-top:78px;}
+.messages ul li font{ color:#f00;}
+.messages ul li .yzm{ width:70px;}
+.messages ul li b{ font-weight:100; background:#dde8fc; color:#0000cc; padding:2px 4px; margin-right:10px;}
+.messages ul .al{ width:48px; height:20px; line-height:20px; border:1px solid #ccc; background:#ddd; margin:20px 20px 0 0;}
+
+.message{ padding:10px 0 0 10px; overflow:hidden; font-family:"宋体";}
+.message .tt{ background:#dedede; padding-left:10px; color:#333;}
+.message span{ color:#737c79; line-height:30px; display:block;}
+.message b{ font-weight:100;}
+.message p{ border:1px dashed #cc0000; padding-left:10px; color:#c00;}
+.message font{ margin-top:20px; display:block; text-align:center;}

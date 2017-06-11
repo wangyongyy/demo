@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.messages{ padding:35px 30px 30px 60px;}
+.messages p{ background:url(../images/wj_26.jpg) no-repeat left top 5px; padding-left:40px; border-bottom:1px dashed #979797; padding-bottom:20px;}
+.messages p span{ color:#f48533;}
+.messages .nr{ padding-top:20px;}
+.messages .nr ul li{ margin-bottom:10px;line-height:24px; color:#525252; }
+.messages .nr ul li span{ width:60px; text-align:right; line-height:24px; display:block; float:left; margin-right:5px;}
+.messages .nr ul li input{ width:200px; height:24px; border:1px solid #abadb3; padding-left:4px; outline:none;}
+.messages .nr ul li font{ color:#ff5d89;}
+.messages .nr ul li t{ background:#dde8fc; color:#0000cc; padding:0 4px; margin:0 10px; cursor:pointer;}
+.messages .nr ul li textarea{ width:250px; height:60px; border:1px solid #abadb3; margin:0px; padding:0px 0 0 4px;}
+.messages .nr ul li .ly{ padding-top:36px;}
+.messages .nr .f1{ width:61px; height:21px; text-align:center; line-height:21px; background:url(../images/wj_27.gif) no-repeat;  margin-right:10px; padding:0px; border:0px;}
+.messages .nr .f2{ width:61px; height:21px; text-align:center; line-height:21px; background:url(../images/wj_27.gif) no-repeat;  margin-right:10px; padding:0px; border:0px;}
