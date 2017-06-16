@@ -1,0 +1,10 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#box{
+	width: 150px;
+	height: 150px;
+	background: #f00;
+	position: absolute;
+}
